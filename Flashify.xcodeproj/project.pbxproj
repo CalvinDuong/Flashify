@@ -7,20 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B073A5E92B1BFB5500CCBE39 /* FlashifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B073A5E82B1BFB5500CCBE39 /* FlashifyApp.swift */; };
-		B073A5EB2B1BFB5500CCBE39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B073A5EA2B1BFB5500CCBE39 /* ContentView.swift */; };
-		B073A5ED2B1BFB5500CCBE39 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B073A5EC2B1BFB5500CCBE39 /* Item.swift */; };
 		B073A5EF2B1BFB5600CCBE39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B073A5EE2B1BFB5600CCBE39 /* Assets.xcassets */; };
 		B073A5F22B1BFB5600CCBE39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B073A5F12B1BFB5600CCBE39 /* Preview Assets.xcassets */; };
+		B073A5FD2B1BFB9300CCBE39 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B073A5F82B1BFB9300CCBE39 /* Model.swift */; };
+		B073A5FE2B1BFB9300CCBE39 /* CreateNewDeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B073A5F92B1BFB9300CCBE39 /* CreateNewDeckView.swift */; };
+		B073A5FF2B1BFB9300CCBE39 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B073A5FA2B1BFB9300CCBE39 /* LibraryView.swift */; };
+		B073A6002B1BFB9300CCBE39 /* flashify.swift in Sources */ = {isa = PBXBuildFile; fileRef = B073A5FB2B1BFB9300CCBE39 /* flashify.swift */; };
+		B073A6012B1BFB9300CCBE39 /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B073A5FC2B1BFB9300CCBE39 /* CardListView.swift */; };
+		B073A6032B1BFC8000CCBE39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B073A6022B1BFC8000CCBE39 /* ContentView.swift */; };
+		B073A6052B1BFDC500CCBE39 /* ImportAIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B073A6042B1BFDC500CCBE39 /* ImportAIView.swift */; };
+		B073A6072B1C013B00CCBE39 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B073A6062B1C013B00CCBE39 /* CardView.swift */; };
+		B07B66F42B1D283B0050498F /* CardFrontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07B66F32B1D283B0050498F /* CardFrontView.swift */; };
+		B07B66F62B1D28580050498F /* CardBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07B66F52B1D28580050498F /* CardBackView.swift */; };
+		B07B66FB2B1D8A0B0050498F /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = B07B66FA2B1D8A0B0050498F /* GoogleGenerativeAI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B073A5E52B1BFB5500CCBE39 /* Flashify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashify.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B073A5E82B1BFB5500CCBE39 /* FlashifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashifyApp.swift; sourceTree = "<group>"; };
-		B073A5EA2B1BFB5500CCBE39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B073A5EC2B1BFB5500CCBE39 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		B073A5EE2B1BFB5600CCBE39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B073A5F12B1BFB5600CCBE39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B073A5F82B1BFB9300CCBE39 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B073A5F92B1BFB9300CCBE39 /* CreateNewDeckView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNewDeckView.swift; sourceTree = "<group>"; };
+		B073A5FA2B1BFB9300CCBE39 /* LibraryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		B073A5FB2B1BFB9300CCBE39 /* flashify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = flashify.swift; sourceTree = "<group>"; };
+		B073A5FC2B1BFB9300CCBE39 /* CardListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
+		B073A6022B1BFC8000CCBE39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B073A6042B1BFDC500CCBE39 /* ImportAIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportAIView.swift; sourceTree = "<group>"; };
+		B073A6062B1C013B00CCBE39 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B07B66F32B1D283B0050498F /* CardFrontView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFrontView.swift; sourceTree = "<group>"; };
+		B07B66F52B1D28580050498F /* CardBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBackView.swift; sourceTree = "<group>"; };
+		B07B66FC2B1F264C0050498F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B07B66FB2B1D8A0B0050498F /* GoogleGenerativeAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,9 +70,10 @@
 		B073A5E72B1BFB5500CCBE39 /* Flashify */ = {
 			isa = PBXGroup;
 			children = (
-				B073A5E82B1BFB5500CCBE39 /* FlashifyApp.swift */,
-				B073A5EA2B1BFB5500CCBE39 /* ContentView.swift */,
-				B073A5EC2B1BFB5500CCBE39 /* Item.swift */,
+				B07B66F12B1D27E90050498F /* Views */,
+				B073A5F82B1BFB9300CCBE39 /* Model.swift */,
+				B073A5FB2B1BFB9300CCBE39 /* flashify.swift */,
+				B07B66FC2B1F264C0050498F /* README.md */,
 				B073A5EE2B1BFB5600CCBE39 /* Assets.xcassets */,
 				B073A5F02B1BFB5600CCBE39 /* Preview Content */,
 			);
@@ -68,6 +86,29 @@
 				B073A5F12B1BFB5600CCBE39 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B07B66F12B1D27E90050498F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B073A6022B1BFC8000CCBE39 /* ContentView.swift */,
+				B073A5FA2B1BFB9300CCBE39 /* LibraryView.swift */,
+				B073A6062B1C013B00CCBE39 /* CardView.swift */,
+				B073A6042B1BFDC500CCBE39 /* ImportAIView.swift */,
+				B073A5F92B1BFB9300CCBE39 /* CreateNewDeckView.swift */,
+				B073A5FC2B1BFB9300CCBE39 /* CardListView.swift */,
+				B07B66F22B1D281E0050498F /* Cards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B07B66F22B1D281E0050498F /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				B07B66F32B1D283B0050498F /* CardFrontView.swift */,
+				B07B66F52B1D28580050498F /* CardBackView.swift */,
+			);
+			path = Cards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +127,9 @@
 			dependencies = (
 			);
 			name = Flashify;
+			packageProductDependencies = (
+				B07B66FA2B1D8A0B0050498F /* GoogleGenerativeAI */,
+			);
 			productName = Flashify;
 			productReference = B073A5E52B1BFB5500CCBE39 /* Flashify.app */;
 			productType = "com.apple.product-type.application";
@@ -102,6 +146,7 @@
 				TargetAttributes = {
 					B073A5E42B1BFB5500CCBE39 = {
 						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
@@ -114,6 +159,9 @@
 				Base,
 			);
 			mainGroup = B073A5DC2B1BFB5500CCBE39;
+			packageReferences = (
+				B07B66F92B1D8A0B0050498F /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
 			productRefGroup = B073A5E62B1BFB5500CCBE39 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,9 +188,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B073A5EB2B1BFB5500CCBE39 /* ContentView.swift in Sources */,
-				B073A5ED2B1BFB5500CCBE39 /* Item.swift in Sources */,
-				B073A5E92B1BFB5500CCBE39 /* FlashifyApp.swift in Sources */,
+				B073A5FE2B1BFB9300CCBE39 /* CreateNewDeckView.swift in Sources */,
+				B07B66F62B1D28580050498F /* CardBackView.swift in Sources */,
+				B073A5FD2B1BFB9300CCBE39 /* Model.swift in Sources */,
+				B07B66F42B1D283B0050498F /* CardFrontView.swift in Sources */,
+				B073A6032B1BFC8000CCBE39 /* ContentView.swift in Sources */,
+				B073A5FF2B1BFB9300CCBE39 /* LibraryView.swift in Sources */,
+				B073A6052B1BFDC500CCBE39 /* ImportAIView.swift in Sources */,
+				B073A6002B1BFB9300CCBE39 /* flashify.swift in Sources */,
+				B073A6072B1C013B00CCBE39 /* CardView.swift in Sources */,
+				B073A6012B1BFB9300CCBE39 /* CardListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +328,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Flashify/Preview Content\"";
@@ -291,6 +347,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Team7.Flashify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Flashify/Preview Content\"";
@@ -346,6 +404,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B07B66F92B1D8A0B0050498F /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B07B66FA2B1D8A0B0050498F /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B07B66F92B1D8A0B0050498F /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B073A5DD2B1BFB5500CCBE39 /* Project object */;
 }
